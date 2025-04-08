@@ -1,3 +1,6 @@
 pdf/input/*
 pdf/processed/*
 pdf/error/*
+!pdf/input/.gitkeep
+!pdf/processed/.gitkeep
+!pdf/error/.gitkeep
