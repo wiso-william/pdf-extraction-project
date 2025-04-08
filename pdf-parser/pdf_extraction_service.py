@@ -115,7 +115,7 @@ def upload_pdf():
         text = extract_first_page_text(input_path)
         raw_data = extract_info(text)
 
-        # Adatta i campi al backend Spring Boot
+        # Adatto i campi al backend Spring Boot
         nome_completo = raw_data["Nome"] if raw_data["Nome"] != "Non trovato" else ""
         nome_parts = nome_completo.split()
         name = nome_parts[0] if len(nome_parts) >= 1 else ""
