@@ -33,7 +33,7 @@ const App = () => {
         component="h1"
         sx={{ mb: 4, fontWeight: "bold" }}
       >
-        Profile Manager
+        Profiles
       </Typography>
 
       <ProfileList
