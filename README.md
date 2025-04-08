@@ -92,7 +92,7 @@ python invio_pdf_a_flask.py
 
 ## Cosa accade una volta avviato il progetto
 
-1. Flask legge i PDF dalla cartella `/pdf`, estrae i dati e li invia via HTTP al backend Spring Boot.
+1. Flask legge i PDF dalla cartella `/pdf/input`, estrae i dati e li invia via HTTP al backend Spring Boot e sposta i pdf nella cartella pdf/processed.
     
 2. Spring Boot li salva su MongoDB.
     
