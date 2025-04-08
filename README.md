@@ -37,9 +37,7 @@ Progetto incentrato sull'estrazione automatica di dati anagrafici da file PDF tr
 ### 1. Clona le repository
 
 ```
-git clone https://github.com/wiso-william/py_extraction
-git clone https://github.com/wiso-william/pdfextraction
-git clone https://github.com/wiso-william/visualizzazionePDF_frontend
+git clone https://github.com/wiso-william/pdf-extraction-project
 ```
 
 ### 2. Configura l’ambiente
