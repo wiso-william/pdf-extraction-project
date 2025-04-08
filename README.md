@@ -62,14 +62,12 @@ git clone https://github.com/wiso-william/pdf-extraction-project
 5. Installa le dipendenze del frontend:
     
     ```
-    cd visualizzazionePDF_frontend
     npm install
     ```
     
 6. Installa le dipendenze Python:
     
     ```
-    cd py_extraction
     pip install -r requirements.txt
     ```
     
@@ -81,11 +79,9 @@ git clone https://github.com/wiso-william/pdf-extraction-project
 ./mvnw spring-boot:run
 
 # Frontend React
-cd visualizzazionePDF_frontend
 npm run dev
 
 # Server Flask
-cd py_extraction
 python pdf_extraction_service.py
 
 # Invia i PDF da elaborare
